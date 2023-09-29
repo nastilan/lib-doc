@@ -1,0 +1,59 @@
+TEST-001
+Название: Проверка наличия кнопки "Download"
+
+Precondition: Открыть сайт http://localhost:3000/
+Test step1: Выбрать любую книгу из списка
+Test step2: Выбрать любую главу из списка 
+Expencted Resylt: Кнопка "Download" отображается на сайте.
+
+
+TEST-002
+Название: Проверка размера кнопки "Download"
+
+Precondition: Открыть сайт http://localhost:3000/
+Test step1: Выбрать любую книгу из списка
+Test step2: Выбрать любую главу из списка 
+Test step3: Нажать комбинацию клавиш Ctrl+Shift+I 
+Test step4: Перейти во вкладку "Elements" 
+Test step5: Проверить размер кнопки "Download"
+Expencted Resylt: Кнопка "Download" соответствует размеру 130х42.
+
+TEST-003
+Название: Проверка цвет кнопки "Download"
+
+Precondition: Открыть сайт http://localhost:3000/
+Test step1: Выбрать любую книгу из списка
+Test step2: Выбрать любую главу из списка 
+Test step3: Нажать комбинацию клавиш Ctrl+Shift+I 
+Test step4: Перейти во вкладку "Elements" 
+Test step5: Проверить размер кнопки "Download"
+Expencted Resylt: Цвет кнопки "Download" соответствует #1976d2.
+
+TEST-004
+Название: Проверка цвета текса кнопки "Download"
+
+Precondition: Открыть сайт http://localhost:3000/
+Test step1: Выбрать любую книгу из списка
+Test step2: Выбрать любую главу из списка 
+Test step3: Нажать комбинацию клавиш Ctrl+Shift+I 
+Test step4: Перейти во вкладку "Elements" 
+Test step5: Проверить размер кнопки "Download"
+Expencted Resylt: Цвет текста кнопки "Download" соответствует #FFFFFF.
+
+TEST-005
+Название: Проверка шрифта кнопки "Download"
+
+Precondition: Открыть сайт http://localhost:3000/
+Test step1: Выбрать любую книгу из списка
+Test step2: Выбрать любую главу из списка 
+Test step3: Нажать комбинацию клавиш Ctrl+Shift+I 
+Test step4: Перейти во вкладку "Elements" 
+Test step5: Проверить размер кнопки "Download"
+Expencted Resylt: Шрифт текста кнопки "Download" соответствует - roboto.
+
+
+
+
+
+
+
