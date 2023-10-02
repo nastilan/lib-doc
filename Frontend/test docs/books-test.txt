@@ -1,0 +1,35 @@
+TEST-001
+Name: Добавить автора.
+Test step1: Вести в поле "Имя автора на русском языке": "Александр Сергеевич Пушкин"
+Test step2: Вести в поле "Имя автора на английском языке": "Alexander Sergeyevich Pushkin"
+Test step3: Вести в поле "Имя автора на  немецком языке": "Alexander Puschkin"
+Test step4: Вести в поле "Имя автора на  французском языке": "Alexandre Sergueïevitch Pouchkine"
+Test step5: Вести в поле "Дата рождения: ": "06.06.1799"
+Test step6: Вести в поле "Дата смерти: ": "10.02.1837"
+Test step7: Выбрать из выпадающего списка язык: "Русский"
+Test step8: Нажать кнопку: "Добавить автора"
+
+Expencted Resylt: Автор успешно добавлен.
+
+TEST-002
+Name: Добавить новую книгу.
+Test step1: Вести в поле "The title " название книги: "Доктор Живаго"
+Test step2: Вести в поле "The author" ФИО автора: "Борис Леонидович Пастернак"
+Test step3: Выбрать метакнигу из выпадающего меню" The metabook for this book": "Доктор Живаго"
+Test step4: Вести в поле "Date of translatio" дату перевода: "1953"
+Test step5: Выбрать язык из выпадающего меню " The language of a book": "Русский"
+Test step6: Нажать кнопку: "Добавить книгу"
+
+Expencted Resylt: Книга успешно добавлена.
+
+TEST-003
+Name: Добавление новой метакниги.
+Test step1: Вести в поле "The title" название метакниги: "Шинель"
+Test step2: Вести в поле "The author of a book" ФИО автора: "Николай Васильевич Гоголь"
+Test step3: Вести в поле "Number of chapters" количество глав: "1"
+Test step5: Выбрать язык из выпадающего меню "The language of a book": "Русский"
+Test step6: Вести в поле "Book's creation date" дату написания книги: "1842"
+Test step7: Нажать кнопку: "Добавить метакнигу"
+
+Expencted Resylt: Метакнига успешно добавлена.
+
