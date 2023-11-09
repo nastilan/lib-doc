@@ -1,7 +1,7 @@
 Team.
 Product-owner: Леонид;
 scrum-master: Stanislav;
-analysts: Валерия, Леонид, Аделя, Анастасия;
+analysts: Валерия, Леонид, Аделя, Анастасия, Мария;
 developers: Stanislav, Дарья П, Андрей;
 qa engineers: Даниил, Евгений, Александр, Евгений М., Дарья М.
 
