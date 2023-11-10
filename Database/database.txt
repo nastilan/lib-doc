@@ -115,4 +115,16 @@ owner integer references users(id),
 leftbook integer references books(id),
 rightbook integer,
 download_time timestamp
-)
+);
+
+create table booklists (
+id serial primary key,
+title varchar,
+description varchar,
+owner integer,
+is_visible boolean,
+add_time timestamp default now());
+
+create table books_in_lists (
+booklist integer references booklists(id),
+book integer references books(id));
